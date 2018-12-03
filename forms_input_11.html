@@ -48,6 +48,29 @@
     <button type="button" class="btn btn-primary ml-3">Submit</button>
   </form>
 
+  <!--Form Row -->
+  <form class="form-row mb-3">
+    <div class="col">
+      <input type="text" placeholder="username" class="form-control">
+    </div>
+    <div class="col">
+      <input type="password" placeholder="password" class="form-control">
+    </div>
+  </form>
+
+  <!--Validations-->
+  <div class="form-group">
+    <label for="username">Username</label>
+    <input type="text" class="form-control is-valid" id="username">
+  </div>
+
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="text" class="form-control is-invalid" id="password">
+    <div class="invalid-feedback">
+      password not strong enough
+    </div>
+  </div>
 </div>
 </body>
 </html>
